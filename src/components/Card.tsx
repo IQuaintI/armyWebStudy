@@ -4,6 +4,7 @@ import "../css/Card.scss";
 export interface CardProps {
   image?: string;
   title: string;
+  subtitle?: string;
   content?: string;
   link: string;
 }

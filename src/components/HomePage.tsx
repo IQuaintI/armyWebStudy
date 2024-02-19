@@ -11,12 +11,13 @@ function HomePage() {
   const cards = [
     {
       title: "Title 1",
+      subtitle: "Subtitle 1",
       link: "/testing",
       image: "https://via.placeholder.com/150",
     },
     {
       title: "Title 2",
-      link: "https://www.google.com",
+      link: "/page",
       image: "https://via.placeholder.com/150",
     },
     {
