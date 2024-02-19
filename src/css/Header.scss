@@ -1,0 +1,11 @@
+@import "../css/headerVariables.scss";
+
+.navbar {
+  position: relative;
+  margin-bottom: 2vh;
+  padding: $navbar-padding-y;
+  font-size: $navbar-brand-font-size;
+  .nav-link {
+    height: $nav-link-height;
+  }
+}

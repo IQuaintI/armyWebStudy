@@ -1,0 +1,20 @@
+@import "./cardVariables.scss";
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 1rem;
+  .cardTitle {
+    color: $card-title-color;
+  }
+  .cardImage {
+    width: auto;
+    height: 20vh;
+    object-fit: cover;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
