@@ -1,36 +1,38 @@
+import { Link } from "react-router-dom";
 import "../css/Card.scss";
 
-interface CardProps {
+export interface CardProps {
   image?: string;
-  title?: string;
+  title: string;
   content?: string;
-  link?: string;
+  link: string;
 }
 
 function Card({ image, title, content, link }: CardProps) {
-  return (
-    <>
-      <div className="card">
-        <img
-          src={image ? image : "https://via.placeholder.com/150"}
-          className="cardImage"
-          alt="..."
-          onClick={() => {
-            link
-              ? (window.location.href = link)
-              : console.log("No link provided");
-          }}
-        />
-        <div className="card-body">
-          <h5 className="cardTitle">{title ? title : "Card title"}</h5>
-          <p className="card-text">
-            {content
-              ? content
-              : "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"}
-          </p>
-        </div>
+  // Check if the link is an internal route
+  const isInternalLink = link.startsWith("/");
+
+  const cardContent = (
+    <div className="card">
+      <img
+        src={image || "https://via.placeholder.com/150"}
+        alt={title}
+        className="cardImage"
+      />
+      <div className="card-body">
+        <h5 className="cardTitle">{title}</h5>
+        <p className="card-text">{content}</p>
       </div>
-    </>
+    </div>
+  );
+
+  // Render the card content wrapped in a Link for internal routes or an anchor tag for external URLs
+  return isInternalLink ? (
+    <Link to={link}>{cardContent}</Link>
+  ) : (
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      {cardContent}
+    </a>
   );
 }
 

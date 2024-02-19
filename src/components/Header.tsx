@@ -12,7 +12,7 @@ function Header({ title, subtitle, home, sections }: HeaderProps) {
     <>
       <nav className="navbar bg-body-tertiary fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             {title || "ACS"}
           </a>
           <button
@@ -46,7 +46,7 @@ function Header({ title, subtitle, home, sections }: HeaderProps) {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="/">
                     {home || "Home"}
                   </a>
                 </li>
