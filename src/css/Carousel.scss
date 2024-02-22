@@ -10,3 +10,15 @@
     object-fit: contain;
   }
   
+  /* Change the color of the carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: black; /* Remove the default background images */
+}
+
+/* If using Bootstrap 4 or 5, you might need to use 'filter' to change SVG icons color */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+

@@ -1,9 +1,9 @@
 //Admin
 import { Grid } from "@mui/material";
-import Sidebar from "./Sidebar";
-import Carousel from "./Carousel";
-import Accordion from "./Accordion";
-import BlockQuote from "./BlockQuote";
+import Sidebar from "../../components/Sidebar";
+import Carousel from "../../components/Carousel";
+import Accordion from "../../components/Accordion";
+import BlockQuote from "../../components/BlockQuote";
 
 //CSS
 import "../css/Page.scss";
@@ -47,12 +47,7 @@ function Page() {
           />
         </Grid>
         <Grid item>
-          <Accordion
-            sections={[
-              { question: "Question", answer: "Answer" },
-              { question: "Question", answer: "Answer" },
-            ]}
-          />
+          <Accordion />
         </Grid>
       </Grid>
     </Grid>
