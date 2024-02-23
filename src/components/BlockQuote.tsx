@@ -1,9 +1,9 @@
 import "../css/BlockQuotes.scss";
 
 interface BlockQuoteProps {
-  header: string;
-  content: string;
-  source: string;
+  header?: string;
+  content?: string;
+  source?: string;
 }
 
 function BlockQuote({ header, content, source }: BlockQuoteProps) {

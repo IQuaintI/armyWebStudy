@@ -16,8 +16,8 @@ function HomePage() {
       image: "https://via.placeholder.com/150",
     },
     {
-      title: "Title 2",
-      link: "/page",
+      title: "Medical",
+      link: "/medical",
       image: "https://via.placeholder.com/150",
     },
     {
