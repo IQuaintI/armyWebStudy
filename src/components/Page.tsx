@@ -1,14 +1,15 @@
+/*
+
 //Admin
 import { Grid } from "@mui/material";
-import Sidebar from "./Sidebar";
-import Carousel from "./Carousel";
-import Accordion from "./Accordion";
-import BlockQuote from "./BlockQuote";
+ import Carousel from "../../components/Carousel";
+ import Accordion from "../../components/Accordion";
+ import BlockQuote from "../../components/BlockQuote";
 
 //CSS
-import "../css/Page.scss";
+import "../../css/Page.scss";
 
-function Page() {
+function Bleeding() {
   return (
     <Grid
       container
@@ -16,10 +17,6 @@ function Page() {
       rowSpacing={1}
       columnSpacing={{ xs: 1, sm: 2, md: 3 }}
     >
-      <Grid item xs={12} sm={3} md={3} lg={2} className="left-container">
-        <Sidebar items={[{ title: "Home", href: "/" }]} />
-      </Grid>
-
       <Grid
         item
         xs={12}
@@ -34,7 +31,7 @@ function Page() {
           <BlockQuote
             header="Header"
             content="Content"
-            source="Source of the Content"
+            source="Source"
           />
         </Grid>
         <Grid item className="item-spacing">
@@ -49,8 +46,28 @@ function Page() {
         <Grid item>
           <Accordion
             sections={[
-              { question: "Question", answer: "Answer" },
-              { question: "Question", answer: "Answer" },
+              {
+                question:
+                  "Question",
+                answer: [
+                  "Answer",
+                ],
+              },
+              {
+                question:
+                  "Question",
+                answer: [
+                  "Answer",
+                ],
+              },
+
+              {
+                question:
+                  "Question", 
+                answer: [
+                  "Answer",
+                ],
+              },
             ]}
           />
         </Grid>
@@ -59,4 +76,5 @@ function Page() {
   );
 }
 
-export default Page;
+export default Bleeding;
+*/

@@ -12,3 +12,15 @@
     background-color: #f5f5f5;
   }
 }
+
+.sidebar-layout {
+  display: flex;
+}
+
+.sidebar {
+  /* Style your sidebar */
+  width: 30vh;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+

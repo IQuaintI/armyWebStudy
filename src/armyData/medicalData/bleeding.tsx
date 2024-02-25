@@ -7,7 +7,7 @@ import BlockQuote from "../../components/BlockQuote";
 //CSS
 import "../../css/Page.scss";
 
-function AbdominalWounds() {
+function Bleeding() {
   return (
     <Grid
       container
@@ -84,4 +84,4 @@ function AbdominalWounds() {
   );
 }
 
-export default AbdominalWounds;
+export default Bleeding;
