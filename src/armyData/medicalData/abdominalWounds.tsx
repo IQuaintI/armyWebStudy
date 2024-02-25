@@ -28,17 +28,16 @@ function AbdominalWounds() {
         <Grid item className="item-spacing">
           <BlockQuote
             header="Abdominal Wounds"
-            content="Abdominal wounds are injuries to the belly area that can damage skin, muscles, and internal organs which require immediate medical attention for proper healing and to prevent complications."
-            source="TC 4-02.1 (2016) - First Aid (Chapter 17)"
+            content={[
+              "Abdominal wounds are injuries to the belly area that can damage skin, muscles, and internal organs which require immediate medical attention.",
+            ]}
+            source={["- TC 4-02.1 (2016) Chapter 17"]}
           />
         </Grid>
-        <Grid item className="item-spacing">
+        <Grid item className="image">
           <Carousel
-            images={[
-              { src: "https://via.placeholder.com/800x400?text=1", alt: "1" },
-              { src: "https://via.placeholder.com/800x400?text=2", alt: "2" },
-              { src: "https://via.placeholder.com/800x400?text=3", alt: "3" },
-            ]}
+            image="https://www.placehold.it/550x350"
+            alt="applying a tourniquet to a casualty's leg."
           />
         </Grid>
         <Grid item>
@@ -49,10 +48,10 @@ function AbdominalWounds() {
                   "What is the most important concern in regards to abdominal injuries?",
                 answer: [
                   "Shock.",
-                  <span className="warning">
-                    "Warning: Shock may be not be present immediately and can
-                    develop later!"
-                  </span>,
+                  <strong>
+                    Warning: Shock may be not be present immediately and can
+                    develop later!
+                  </strong>,
                   "Always treat for shock regardless if the casualty has a wound or notify the casualty has an abdominal wound.",
                 ],
               },

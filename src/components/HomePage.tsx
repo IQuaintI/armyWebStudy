@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 import Card from "../components/Card";
 
 //CSS
+import "../css/Homepage.scss";
 
 //Images
 // import heroBanner from "/heroBanner.png";
@@ -10,8 +11,7 @@ import Card from "../components/Card";
 function HomePage() {
   const cards = [
     {
-      title: "Title 1",
-      subtitle: "Subtitle 1",
+      title: "Armaments",
       link: "/testing",
       image: "https://via.placeholder.com/150",
     },
@@ -48,12 +48,7 @@ function HomePage() {
       >
         {cards.map((card, index) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-            <Card
-              title={card.title}
-              content={`Content ${index + 1}`}
-              image={card.image}
-              link={card.link}
-            />
+            <Card title={`${card.title}`} image={card.image} link={card.link} />
           </Grid>
         ))}
       </Grid>

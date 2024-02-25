@@ -1,26 +1,33 @@
-.list-group-item {
-  padding: 10px 15px;
-  text-align: center;
-  border: 2px solid white;
-  border-radius: 0;
-  cursor: pointer;
-  transition: all 0.3s;
-  &:hover {
-    background-color: #f5f5f5;
-  }
-  &.active {
-    background-color: #f5f5f5;
-  }
-}
-
 .sidebar-layout {
   display: flex;
-}
+  min-height: 100vh; // Make the layout fill the full height of the viewport
 
-.sidebar {
-  /* Style your sidebar */
-  width: 30vh;
-  height: 100vh;
-  border-right: 1px solid black;
-}
+  .sidebar {
+    flex-basis: 30vh; // Set the initial width of the sidebar
+    flex-shrink: 0; // Prevent the sidebar from shrinking
+    // Add more styles for the sidebar here (background, padding, etc.)
+    border-right: 2px solid black;
+  }
+  .list-group-item {
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      background-color: #f5f5f5;
+    }
+    &.active {
+      background-color: #f5f5f5;
+    }
+  }
 
+  .main-content {
+    flex-grow: 1; // Allow the main content to take up the remaining space
+    padding: 20px; // Add padding around the main content
+    margin-left: 20vh;
+    overflow: auto; /* Ensure that the container can grow */
+    max-height: none; /* Avoid limiting the accordion's height */
+  }
+}

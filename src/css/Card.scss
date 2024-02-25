@@ -5,8 +5,9 @@
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
   padding: 1rem;
   margin: 1rem;
+  transition: all 0.3s ease;
   .cardTitle {
-    color: $card-title-color;
+    color: black;
   }
   .cardImage {
     width: auto;
