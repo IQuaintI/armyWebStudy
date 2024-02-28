@@ -26,7 +26,8 @@ function Medical() {
             minHeight: '100vh' // Take up at least the full height of the viewport
           }}
         >
-          <BlockQuote header="This too shall pass." source="Sufism" />
+          {/* Ensure source is passed as an array of strings */}
+          <BlockQuote header="This too shall pass." source={["Sufism"]} />
         </Grid>
       )}
 

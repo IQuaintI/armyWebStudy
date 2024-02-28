@@ -3,9 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Testing from "./components/Testing";
 import HomePage from "./components/HomePage";
 import Medical from "./homeCards/Medical";
-import MedicalLayout from "./components/MedicalLayouts";
+import MedicalLayout from "./routes/MedicalLayouts";
 //Medical Sub-Routes
-import {MedicalRoutes} from "./routes/medicalRoutes";
+import { MedicalRoutes } from "./routes/medicalRoutes";
 
 const AppRoutes = () => {
   return (

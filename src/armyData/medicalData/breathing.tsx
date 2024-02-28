@@ -3,18 +3,18 @@ import Carousel from "../../components/Carousel";
 import CustomAccordion from "../../components/Accordion";
 import BlockQuote from "../../components/BlockQuote";
 
-function Bleeding() {
+function Breathing() {
   // Define topics here if they need dynamic rendering or pass them as props
   const topics = [
     {
-      heading: "Checking for Bleeding",
+      heading: "How to Open the Airway",
       sections: [
         {
-          question: "How do you check a casualty for bleeding?",
+          question: "How do you position a casualty to open the airway?",
           answer: [
-            "Check for blood on the casualty's clothing and equipment.",
-            "Check for blood on the ground around the casualty.",
-            "Do a blood sweep of the casualty's extremities.",
+            "Place the casualty on their back and kneel besides them. (Ensure that the body is not twisted if movement is necessary.)",
+            "Raise the casualty's arm closest to you above their head and align their legs.",
+            "Place a hand on the back of the casualty's head and neck .",
             "Check for blood in the casualty's mouth, nose, and ears.",
             "If the casualty is conscious, ask where it hurts.",
           ],
@@ -60,7 +60,10 @@ function Bleeding() {
             "Tighten the tourniquet until the bleeding stops then secure the windlass.",
             `Mark the casualty's forehead with a "T" and the time the tourniquet was applied.`,
             "Tape the tourniquet to the casualty's limb to prevent it from moving in transit.",
-            <strong>In combat, the tourniquet is the primary means of dealing with blood loss.</strong>
+            <strong>
+              In combat, the tourniquet is the primary means of dealing with
+              blood loss.
+            </strong>,
           ],
         },
       ],
@@ -88,9 +91,9 @@ function Bleeding() {
         >
           <Grid item className="item-spacing">
             <BlockQuote
-              header="Bleeding"
+              header="Airway"
               content={[
-                "Bleeding is the loss of blood from the body. It can be external or internal and can occur in various parts of the body.",
+                "Opening the airway involves tilting the head back and lifting the chin to ensure that the breathing passage is clear and unobstructed for air to flow freely.",
               ]}
               source={["- TC 4-02.1 (2016) / STP 21-1-SMCT (2015)"]}
             />
@@ -112,4 +115,4 @@ function Bleeding() {
   );
 }
 
-export default Bleeding;
+export default Breathing;

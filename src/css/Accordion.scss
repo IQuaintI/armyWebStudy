@@ -1,0 +1,37 @@
+/* Accordion.scss */
+.accordion-item {
+  margin-bottom: 1rem; /* Adds space between accordion items */
+  font-size: 20px;
+}
+
+.topic-container {
+  margin-bottom: 2rem; /* Adds space between topics */
+}
+
+/* If you want to add space only at the bottom of each topic heading */
+.topic-heading {
+  margin-bottom: 1rem;
+}
+
+/* For additional padding within each accordion body for better readability */
+.accordion-body {
+  padding: 1rem; /* Adjust as needed */
+}
+
+/* To ensure the ul list inside the accordion body has padding */
+.accordion-body ul {
+  padding-left: 20px; /* Adjust based on your design needs */
+  list-style-type: disc; /* Or any other style you prefer */
+}
+
+/* To adjust the space between list items */
+.accordion-body ul li {
+  margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
+
+h2 {
+  font-size: 24px;
+  margin: 1rem 0;
+  text-align: center;
+}
