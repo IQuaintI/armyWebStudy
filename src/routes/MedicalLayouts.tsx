@@ -10,8 +10,37 @@ const MedicalLayout = () => {
           items={[
             { title: "Home", href: "/" },
             { title: "Abdominal Wounds", href: "/medical/abdominal-wounds" },
+            { title: "Airway", href: "/medical/airway" },
             { title: "Bleeding", href: "/medical/bleeding" },
-            { title: "Breathing", href: "/medical/breathing" },
+            { title: "Burns", href: "/medical/burns" },
+            {
+              title: "Carbon Monoxide Poisoning",
+              href: "/medical/carbon-monoxide-poisoning",
+            },
+            {
+              title: "Cold Weather Injuries",
+              href: "/medical/cold-weather-injuries",
+            },
+            {
+              title: "Eye Injury",
+              href: "/medical/eye-injury",
+            },
+            {
+              title: "Gastrointestinal Issues",
+              href: "/medical/gastrointestinal-issues",
+            },
+            {
+              title: "Dehydration",
+              href: "/medical/dehydration",
+            },
+            {
+              title: "Shock",
+              href: "/medical/shock",
+            },
+            {
+              title: "Stings and Bites",
+              href: "/medical/stings-and-bites",
+            },
             // Add more sidebar items as needed
           ]}
         />

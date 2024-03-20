@@ -33,10 +33,12 @@ function Bleeding() {
           answer: [
             "Expose the wound and place a sterile dressing over the wound.",
             "Apply pressure directly over the wound.",
-            "Pack gaping wounds with sterile gauze.",
-            <strong>
-              Do NOT pack wounds in the torso area - It will do nothing!
-            </strong>,
+            <span>
+              Pack gaping wounds with sterile gauze{" "}
+              <strong>
+                (Do NOT pack wounds in the torso area - It will do nothing!)
+              </strong>
+            </span>,
           ],
         },
         {
@@ -44,23 +46,32 @@ function Bleeding() {
           answer: [
             "Apply the dressing with the white sterile side over the wound.",
             "Wrap the elastic portion around the limb and then once the wound is covered, run the excess through the pressure bar.",
-            "Wrap the remaining tail in reverse until tight.",
-            <strong>
-              The dressing should be tight but not enough to cut off
-              circulation.
-            </strong>,
+            <span>
+              Wrap the remaining tail in reverse until tight.{" "}
+              <strong>
+                (The dressing should be tight but not enough to cut off
+                circulation!)
+              </strong>
+            </span>,
           ],
         },
         {
           question: "How do you apply a tourniquet?",
           answer: [
-            "If the bleeding has been deemed life-threatening, apply a tourniquet.",
+            <span>
+              If the bleeding has been deemed life-threatening, apply a
+              tourniquet{" "}
+              <strong>
+                (In combat, the tourniquet is the primary means of dealing with
+                blood loss!)
+              </strong>
+              ,
+            </span>,
             "Pull the strap through the buckle and place the tourniquet around the limb.",
             "Place the tourniquet 2-3 inches above the wound.",
             "Tighten the tourniquet until the bleeding stops then secure the windlass.",
             `Mark the casualty's forehead with a "T" and the time the tourniquet was applied.`,
             "Tape the tourniquet to the casualty's limb to prevent it from moving in transit.",
-            <strong>In combat, the tourniquet is the primary means of dealing with blood loss.</strong>
           ],
         },
       ],
