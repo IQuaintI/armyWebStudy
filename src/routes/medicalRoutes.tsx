@@ -10,6 +10,7 @@ import GastrointestinalIssues from "../armyData/medicalData/gastrointestinalIssu
 import StingsAndBites from "../armyData/medicalData/stingsAndBites";
 import Shock from "../armyData/medicalData/shock";
 import EyeInjury from "../armyData/medicalData/eyeInjury";
+import Fractures from "../armyData/medicalData/fractures";
 
 export const MedicalRoutes = (
   <>
@@ -28,6 +29,8 @@ export const MedicalRoutes = (
     <Route path="dehydration" element={<Dehydration />} />
 
     <Route path="eye-injury" element={<EyeInjury />} />
+
+    <Route path="fractures" element={<Fractures />} />
 
     <Route
       path="gastrointestinal-issues"
