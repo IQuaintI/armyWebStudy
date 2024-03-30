@@ -3,19 +3,16 @@ import Carousel from "../../components/Carousel";
 import CustomAccordion from "../../components/Accordion";
 import BlockQuote from "../../components/BlockQuote";
 
-function Fractures() {
+function HeatInjury() {
   // Define topics here if they need dynamic rendering or pass them as props
   const topics = [
     {
-      heading: "Fractures",
+      heading: "Types of Heat Illnesses",
       sections: [
         {
-          question: "What is a fracture?",
+          question: "What is a heat injury?",
           answer: [
-            "A fracture is a break in the continuity of a bone.",
-            "Closed fractures are those in which the skin is not broken.",
-            "Open fractures are those in which the skin is broken.",
-            "Recovery is often without complication but the initial first aid is critical to this outcome.",
+            "It is a spectrum of conditions that occur when the body is unable to cool itself adequately.",
             <span>
               <strong>
                 Open fractures are more serious than closed fractures because
@@ -200,9 +197,9 @@ function Fractures() {
         >
           <Grid item className="item-spacing">
             <BlockQuote
-              header="Fractures"
+              header="Heat Injuries"
               content={[
-                "Fractures are breaks or cracks in bones, often caused by trauma, overuse, or disease, leading to pain, swelling, and impaired function of the affected area.",
+                "Heat illnesses range from mild conditions like heat cramps to severe ones such as heat exhaustion and heat stroke, caused by prolonged exposure to high temperatures and dehydration, impairing the body's ability to regulate temperature.",
               ]}
               source={["- TC 4-02.1 (2016)"]}
             />
@@ -224,4 +221,4 @@ function Fractures() {
   );
 }
 
-export default Fractures;
+export default HeatInjury;

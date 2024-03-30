@@ -34,6 +34,10 @@ const MedicalLayout = () => {
               href: "/medical/gastrointestinal-issues",
             },
             {
+              title: "Heat Injury",
+              href: "/medical/heat-injury",
+            },
+            {
               title: "Dehydration",
               href: "/medical/dehydration",
             },
