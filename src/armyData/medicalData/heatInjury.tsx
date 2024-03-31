@@ -13,164 +13,83 @@ function HeatInjury() {
           question: "What is a heat injury?",
           answer: [
             "It is a spectrum of conditions that occur when the body is unable to cool itself adequately.",
+          ],
+        },
+        {
+          question: "What are signs and symptoms of heat exhaustion?",
+          answer: [
+            "Headaches and dizziness",
+            "Weakness and upset stomach",
+            "Cramps, profuse sweating, and cool, clammy skin",
             <span>
               <strong>
-                Open fractures are more serious than closed fractures because
-                they are subject to infection!
+                Heat cramps and and heat exhaustion are the warning signs of a
+                heat stroke!
               </strong>
             </span>,
           ],
         },
         {
-          question: "What is a dislocation?",
+          question: "How do you treat heat exhaustion?",
           answer: [
-            "A dislocation is the displacement of a bone from its joint.",
+            "Rest in shaded area",
+            "Loosen clothing and remove gear",
+            "Drink two quartz of water over one hour",
+            "If conditions do not improve after 30 minutes, seek medical attention",
           ],
         },
         {
-          question: "What is a sprain?",
-          answer: ["A sprain is the stretching or tearing of ligaments."],
+          question: "What are signs and symptoms of a heat stroke?",
+          answer: [
+            "Hot and dry skin (may be moist at the beginning)",
+            "Dizziness and convulsions",
+            "Respiratory distress and a weak, rapid pulse",
+            "Confusion, combativeness, and unconsciousness",
+          ],
         },
         {
-          question: "What are signs and symptoms of a fracture?",
+          question: "How do you treat a heat stroke?",
           answer: [
-            "Pain and tenderness",
-            "Swelling and deformity",
-            "Discoloration and loss of function",
-            "Bleeding",
+            "Cool the body by any means necessary even if clothing needs to be removed",
+            "Cool the body with cold water immersion",
+            "Wrap the casualty in an ice sheet, but leave the face exposed",
+            "Place ice packs in the armpits, neck and groin",
+            "Stop cooling when the body starts to shiver",
+            <span>
+              <strong>Give NOTHING by mouth!</strong>
+            </span>,
           ],
         },
       ],
     },
     {
-      heading: "Splint",
+      heading: "Hyponatremia",
       sections: [
         {
-          question: "What is a split?",
+          question: "What is hyponatremia?",
           answer: [
-            "A splint is a rigid device used to immobilize a fractured or dislocated bone.",
-            "Splints do NOT impair circulation.",
-            "Splints are held in place by bandages, tape or other materials that can be secured in the field.",
+            "Hyponatremia or water intoxication is a condition that occurs when the body's sodium levels are too low and can be mistaken for a heat injury",
             <span>
-              <strong>
-                Use gloves to prevent infection when applying a splint!
-              </strong>
-            </span>,
-          ],
-        },
-      ],
-    },
-    {
-      heading: "Upper Extremities",
-      sections: [
-        {
-          question: "How to split an upper extremity?",
-          answer: [
-            "Sit the casualty up, support the fracture, remove restrictive articles, and expose the injury.",
-          ],
-        },
-        {
-          question: "How to splint a fractured wrist?",
-          answer: [
-            "A formable splint is folded to become double layered with one end being about 1 inch longer than the other.",
-            "Roll the longer end towards the shorter end to form a cylinder.",
-            "Shape the splint to the wrist and forearm by folding the splint around the wrist and forearm of the healthy arm.",
-            "Place the splint on the injured wrist and forearm and tie one cravat (proximal) above and one below (distal) the wrist.",
-            "Tie the cravats securely but not so tight as to impair circulation and cut the tails.",
-            "Apply a sling and swathe to support the arm.",
-          ],
-        },
-        {
-          question: "How to splint an elbow fracture?",
-          answer: [
-            "The injured arm is placed in a V position across the torso.",
-            "Fold a splint in half and then again across the long axis to form a V shape.",
-            "Place the splint on the injured arm and secure it with cravats above and below the elbow.",
-          ],
-        },
-        {
-          question: "How to splint an elbow fracture?",
-          answer: [
-            "The injured arm is placed in a V position across the torso.",
-            "Fold a splint in half and then again across the long axis to form a V shape.",
-            "Place the splint on the injured arm and secure it with cravats above and below the elbow.",
-          ],
-        },
-        {
-          question: "How to splint a fractured long-bone (humerus)?",
-          answer: [
-            "Fold the splint so that there is about 12 inches of double sided splint.",
-            "Support the casualty's arm into an L shape",
-            "Place the splint on the injured arm and secure it with with elastic bandages taped over.",
-            "Apply a sling and swathe to support the arm.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "Lower Extremities",
-      sections: [
-        {
-          question: "How to split a lower extremity?",
-          answer: [
-            "Sit the casualty up, support the fracture, remove the foot gear and expose the injury.",
-            "Check for distal pulses (wrist) and capillary refill (press the nail bed and see if it turns white and then pink again).",
-            <span>
-              <strong>
-                Use manual traction to assist in pulse restoration and if it
-                does not work, then splint the injury and evacuate the casualty
-                immediately!
-              </strong>
+              <strong>This often occurs in initial entry training!</strong>
             </span>,
           ],
         },
         {
-          question: "How to splint an ankle injury?",
+          question: "What are signs and symptoms of hyponatremia?",
           answer: [
-            "Wrap the ankle in padding and fold a 36-inch splint in equal halves.",
-            "Fold the sides of the splint to form a U shape.",
-            "Place the splint over the injured ankle in the stirrup position (heel in the U).",
-            "Secure the splint across the shin and calf with elastic bands and tape.",
+            "Altered mental status",
+            "Vomiting, clear urine, and bloating",
+            "Lack of food consumption and a history of over-hydration",
           ],
         },
         {
-          question: "How to splint a tibula and/or fibula fracture?",
+          question: "How do you treat hyponatremia?",
           answer: [
-            "Wrap the ankle in padding and keep the 36-inch in full length.",
-            "Curve about 6 inches of the splint to form a J shape.",
-            "Curve the rest of teh splint into a U shape.",
-            "Do the same for a second splint.",
-            "Apply the splint to the injured leg with the J splint on the inside of the leg and the U splint on the outside.",
-            "Secure the splints with elastic bands and tape.",
+            "If the casualty is conscious, give salty foods",
+            "If the casualty is unconscious, seek medical attention",
             <span>
-              <strong>Ensure that there is a pulse at the ankle!</strong>
+              <strong>Do NOT give water or IV fluids!</strong>
             </span>,
-          ],
-        },
-        {
-          question: "How to splint a femur?",
-          answer: [
-            <span>
-              <strong>
-                Do NOT move the casualty unless absolutely necessary!
-              </strong>
-            </span>,
-            <span>
-              <strong>
-                Do NOT attempt to straighten the leg or apply traction!
-              </strong>
-            </span>,
-            <span>
-              <strong>
-                A broken femur is the most serious fracture and requires
-                immediate medical attention!
-              </strong>
-            </span>,
-            "Apply board splints along the length of the leg and ensure they are padded.",
-            "Anatomical splints can be used, with the uninjured leg being used as a guide.",
-            "Cravats are tied above and below the fracture site.",
-            'The splint is secured to the torso via a "harness" of cravats and bandages.',
-            "Check the distal pulse and check for swelling.",
           ],
         },
       ],
