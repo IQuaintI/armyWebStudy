@@ -3,9 +3,31 @@
 .navbar {
   position: relative;
   margin-bottom: 2vh;
+
   padding: $navbar-padding-y;
   font-size: $navbar-brand-font-size;
   .nav-link {
     height: $nav-link-height;
+  }
+  .navbar-toggler {
+    // Removes default padding and border of the bootstrap navbar-toggler button
+    padding: 0;
+    border: none;
+    &:focus,
+    &:active {
+      outline: none;
+      border: none;
+    }
+
+    .logo {
+      width: 100px; // Adjust based on your actual logo size
+      height: auto; // Maintain aspect ratio
+      &:focus,
+      &:active {
+        outline: none;
+        border: none;
+      }
+      // Add any additional styling for the logo image
+    }
   }
 }

@@ -13,6 +13,7 @@ import EyeInjury from "../armyData/medicalData/eyeInjury";
 import Fractures from "../armyData/medicalData/fractures";
 import HeatInjury from "../armyData/medicalData/heatInjury";
 import HeadInjury from "../armyData/medicalData/headInjury";
+import NerveAgents from "../armyData/medicalData/nerveAgents";
 
 export const MedicalRoutes = (
   <>
@@ -45,6 +46,7 @@ export const MedicalRoutes = (
     <Route path="shock" element={<Shock />} />
     <Route path="stings-and-bites" element={<StingsAndBites />} />
 
+    <Route path="nerve-agents" element={<NerveAgents />} />
     {/* more nested routes */}
   </>
 );

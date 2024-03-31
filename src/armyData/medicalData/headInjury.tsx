@@ -73,111 +73,39 @@ function HeadInjury() {
         {
           question: "How do you stabilize a head injury?",
           answer: [
-            "Sit the casualty up, support the fracture, remove restrictive articles, and expose the injury.",
+            "Place your hands on both sides of the casualty's head and hold it still.",
           ],
         },
         {
-          question: "How to splint a fractured wrist?",
+          question: "How do you asses a casualty's level of consciousness?",
           answer: [
-            "A formable splint is folded to become double layered with one end being about 1 inch longer than the other.",
-            "Roll the longer end towards the shorter end to form a cylinder.",
-            "Shape the splint to the wrist and forearm by folding the splint around the wrist and forearm of the healthy arm.",
-            "Place the splint on the injured wrist and forearm and tie one cravat (proximal) above and one below (distal) the wrist.",
-            "Tie the cravats securely but not so tight as to impair circulation and cut the tails.",
-            "Apply a sling and swathe to support the arm.",
-          ],
-        },
-        {
-          question: "How to splint an elbow fracture?",
-          answer: [
-            "The injured arm is placed in a V position across the torso.",
-            "Fold a splint in half and then again across the long axis to form a V shape.",
-            "Place the splint on the injured arm and secure it with cravats above and below the elbow.",
-          ],
-        },
-        {
-          question: "How to splint an elbow fracture?",
-          answer: [
-            "The injured arm is placed in a V position across the torso.",
-            "Fold a splint in half and then again across the long axis to form a V shape.",
-            "Place the splint on the injured arm and secure it with cravats above and below the elbow.",
-          ],
-        },
-        {
-          question: "How to splint a fractured long-bone (humerus)?",
-          answer: [
-            "Fold the splint so that there is about 12 inches of double sided splint.",
-            "Support the casualty's arm into an L shape",
-            "Place the splint on the injured arm and secure it with with elastic bandages taped over.",
-            "Apply a sling and swathe to support the arm.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "Lower Extremities",
-      sections: [
-        {
-          question: "How to split a lower extremity?",
-          answer: [
-            "Sit the casualty up, support the fracture, remove the foot gear and expose the injury.",
-            "Check for distal pulses (wrist) and capillary refill (press the nail bed and see if it turns white and then pink again).",
+            "Is the casualty alert?",
+            "Does the casualty respond to verbal commands?",
+            "Does the casualty respond to pain?",
+            "Is the casualty unresponsive?",
             <span>
               <strong>
-                Use manual traction to assist in pulse restoration and if it
-                does not work, then splint the injury and evacuate the casualty
-                immediately!
+                AVPU (Alert, Verbal, Pain, Unresponsive) is a way to remember
+                the levels of responsiveness!
               </strong>
             </span>,
           ],
         },
         {
-          question: "How to splint an ankle injury?",
-          answer: [
-            "Wrap the ankle in padding and fold a 36-inch splint in equal halves.",
-            "Fold the sides of the splint to form a U shape.",
-            "Place the splint over the injured ankle in the stirrup position (heel in the U).",
-            "Secure the splint across the shin and calf with elastic bands and tape.",
-          ],
+          question: "How do you treat a superficial head injury?",
+          answer: ["Dress the wound and watch the casualty for complications."],
         },
         {
-          question: "How to splint a tibula and/or fibula fracture?",
+          question: "How do you treat a traumatic head injury?",
           answer: [
-            "Wrap the ankle in padding and keep the 36-inch in full length.",
-            "Curve about 6 inches of the splint to form a J shape.",
-            "Curve the rest of teh splint into a U shape.",
-            "Do the same for a second splint.",
-            "Apply the splint to the injured leg with the J splint on the inside of the leg and the U splint on the outside.",
-            "Secure the splints with elastic bands and tape.",
+            "Maintain an open airway and dress the wound.",
+            "Monitor the casualty for signs of shock and seek immediate medical attention.",
             <span>
-              <strong>Ensure that there is a pulse at the ankle!</strong>
-            </span>,
-          ],
-        },
-        {
-          question: "How to splint a femur?",
-          answer: [
-            <span>
-              <strong>
-                Do NOT move the casualty unless absolutely necessary!
-              </strong>
+              <strong>Do NOT apply pressure to brain tissue!</strong>
             </span>,
             <span>
-              <strong>
-                Do NOT attempt to straighten the leg or apply traction!
-              </strong>
+              <strong>Do NOT give the casualty anything orally!</strong>
             </span>,
-            <span>
-              <strong>
-                A broken femur is the most serious fracture and requires
-                immediate medical attention!
-              </strong>
-            </span>,
-            "Apply board splints along the length of the leg and ensure they are padded.",
-            "Anatomical splints can be used, with the uninjured leg being used as a guide.",
-            "Cravats are tied above and below the fracture site.",
-            'The splint is secured to the torso via a "harness" of cravats and bandages.',
-            "Check the distal pulse and check for swelling.",
           ],
         },
       ],

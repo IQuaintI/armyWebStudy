@@ -53,6 +53,10 @@ const MedicalLayout = () => {
               title: "Stings and Bites",
               href: "/medical/stings-and-bites",
             },
+            {
+              title: "Nerve Agents",
+              href: "/medical/nerve-agents",
+            },
             // Add more sidebar items as needed
           ]}
         />

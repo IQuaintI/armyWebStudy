@@ -1,6 +1,8 @@
 import { Grid } from "@mui/material";
 import Header from "./components/Header";
 import AppRoutes from "./AppRoutes";
+import "../public/Untitled.png";
+import "./css/App.scss";
 
 function App() {
   return (
@@ -13,7 +15,6 @@ function App() {
       >
         <Grid item xs={12}>
           <Header
-            title="ACS"
             subtitle="Explore ACS"
             home="Home"
             sections={[

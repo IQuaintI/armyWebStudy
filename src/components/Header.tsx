@@ -1,7 +1,8 @@
 import "../css/Header.scss";
+import logoImage from "../../public/Untitled.png";
 
 interface HeaderProps {
-  title?: string;
+  title?: string | JSX.Element;
   subtitle?: string;
   home?: string;
   sections: Array<{ link: string; title: string }>;
@@ -13,18 +14,19 @@ function Header({ title, subtitle, home, sections }: HeaderProps) {
       <nav className="navbar bg-body-tertiary fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            {title || "ACS"}
+            {title || ""}
           </a>
+
           <button
-            className="navbar-toggler"
+            className="navbar-toggler p-0 border-0"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <img src={logoImage} alt="ACS" className="logo" />
           </button>
+
           <div
             className="offcanvas offcanvas-end"
             tabIndex={-1}
@@ -50,16 +52,13 @@ function Header({ title, subtitle, home, sections }: HeaderProps) {
                     {home || "Home"}
                   </a>
                 </li>
-
-                {sections.map(
-                  (section: { link: string; title: string }, index: number) => (
-                    <li className="nav-item" key={index}>
-                      <a className="nav-link" href={section.link}>
-                        {section.title}
-                      </a>
-                    </li>
-                  )
-                )}
+                {sections.map((section, index) => (
+                  <li className="nav-item" key={index}>
+                    <a className="nav-link" href={section.link}>
+                      {section.title}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
