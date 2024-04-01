@@ -18,6 +18,10 @@ const MedicalLayout = () => {
               href: "/medical/carbon-monoxide-poisoning",
             },
             {
+              title: "Chest Wounds",
+              href: "/medical/chest-wounds",
+            },
+            {
               title: "Cold Weather Injuries",
               href: "/medical/cold-weather-injuries",
             },

@@ -3,75 +3,54 @@ import Carousel from "../../components/Carousel";
 import CustomAccordion from "../../components/Accordion";
 import BlockQuote from "../../components/BlockQuote";
 
-function NerveAgents() {
+function ChestWounds() {
   // Define topics here if they need dynamic rendering or pass them as props
   const topics = [
     {
-      heading: "Mild Nerve Agents",
+      heading: "Open Chest Wounds",
       sections: [
         {
-          question: "What are signs and symptoms of mild nerve agent exposure?",
+          question: "What is treatment for an open chest wound?",
           answer: [
-            "Runny nose and drooling",
-            "Respiratory distress and difficulty seeing",
-            "Headaches and nausea",
-            "Tightness in the chest and localized sweating",
-          ],
-        },
-        {
-          question: "What is the treatment for mild nerve agent exposure?",
-          answer: [
-            "An Antidote Treatment Nerve Agent Auto-injector (ATNAA) is used to treat mild nerve agent exposure.",
+            "Put on the gloves that is in the casualty's IFAK.",
+            "Expose the wound unless it is stick or you are in a CBRN environment.",
             <span>
               <strong>
-                ONLY self-administer the ATNAA do NOT self-administer the
-                Convulsant Antitode for Nerve Agent (CANA) auto-injector!
-              </strong>
-            </span>,
-            "The outside of the thigh is the preferred site for injection, but the upper, outer quarter of the buttocks can also be used if the individual is skinny.",
-            "The location of the site on the thigh is one hands with below the hip joint and one hand above the knee joint.",
-            <span>
-              <strong>
-                Be careful when using the buttocks site as there is a a nerve
-                running across the buttocks that can cause paralysis if damaged!
-              </strong>
-            </span>,
-            "Hold the ATNAA in a closed fist with the green side facing down and take the cap off with the other hand.",
-            "Place the ATNAA against the thigh and push down until the needle is administered and hold for 10 seconds.",
-            "Remove the needle. bend it it into a hook and keep track of it.",
-            "Massage the injection site if possible.",
-            <span>
-              <strong>
-                If you can walk, recall your name and where you are, do NOT take
-                another injections!
+                If you have to ask yourself it constitutes an "open" chest wound
+                - treat it like one!
               </strong>
             </span>,
             <span>
-              <strong>
-                If symptoms persist, have a battle look over your and administer
-                the medicine as needed!
-              </strong>
+              <strong>Treat wounds in the order they are found!</strong>
             </span>,
+            "The back of the hand can be used to apply pressure to the wound until an occlusive dressing is applied.",
           ],
         },
       ],
     },
     {
-      heading: "Severe Nerve Agents",
+      heading: "Chest Seals",
       sections: [
         {
           question:
-            "What are signs and symptoms of severe nerve agent exposure?",
+            "How do you apply a commercial chest seal to an open chest wound?",
           answer: [
-            "Pinpoint pupils and red, teary eyes",
-            "Altered mental status that can lead to unconsciousness",
-            "Convulsions and seizures",
-            "Localized sweating",
-            "Respiratory distress add vomiting",
+            "Remove the chest seal from the casualty's IFAK and remove the backing from the adhesive.",
+            "Remove any debris or liquid from the casualty's chest.",
+            "If the casualty is conscious, tell them to exhale before applying the chest seal otherwise wait for the exhale.",
+            <span>
+              <strong>
+                A vented chest seal is preferred, but a non-vented chest seal is
+                applied in a similar manner!
+              </strong>
+            </span>,
+            "Do not touch the adhesive side of the chest seal and ensure that edges of the seal extend two inches beyond the wound.",
+            "If wound is not airtight, tape from the casualty's IFAK can be used to secure the edges of the chest seal, while avoiding the vents.",
           ],
         },
         {
-          question: "What is the treatment for severe nerve agent exposure?",
+          question:
+            "How do you apply an improvised chest seal to an open chest wound?",
           answer: [
             "Apply that you and the casualty both have a mask on.",
             "If the casualty is awake, have them clear their mask.",
@@ -119,9 +98,9 @@ function NerveAgents() {
         >
           <Grid item className="item-spacing">
             <BlockQuote
-              header="Nerve Agents"
+              header="Chest Wounds"
               content={[
-                "Nerve agents are highly toxic chemicals that disrupt the nervous system by blocking the enzyme that allows nerves to communicate, leading to overstimulation and potentially fatal respiratory failure.",
+                "Chest wounds are a common battlefield injury that can be caused by a variety of factors, including bullets, shrapnel, and other projectiles.",
               ]}
               source={["- TC 4-02.1 (2016)"]}
             />
@@ -143,4 +122,4 @@ function NerveAgents() {
   );
 }
 
-export default NerveAgents;
+export default ChestWounds;

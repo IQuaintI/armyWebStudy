@@ -14,6 +14,7 @@ import Fractures from "../armyData/medicalData/fractures";
 import HeatInjury from "../armyData/medicalData/heatInjury";
 import HeadInjury from "../armyData/medicalData/headInjury";
 import NerveAgents from "../armyData/medicalData/nerveAgents";
+import ChestWounds from "../armyData/medicalData/chestWounds";
 
 export const MedicalRoutes = (
   <>
@@ -24,6 +25,7 @@ export const MedicalRoutes = (
     <Route path="burns" element={<Burns />} />
 
     <Route path="cold-weather-injuries" element={<ColdWeatherInjuries />} />
+    <Route path="chest-wounds" element={<ChestWounds />} />
     <Route
       path="carbon-monoxide-poisoning"
       element={<CarbonMonoxidePoisoning />}
