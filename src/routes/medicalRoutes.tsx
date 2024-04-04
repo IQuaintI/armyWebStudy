@@ -15,15 +15,20 @@ import HeatInjury from "../armyData/medicalData/heatInjury";
 import HeadInjury from "../armyData/medicalData/headInjury";
 import NerveAgents from "../armyData/medicalData/nerveAgents";
 import ChestWounds from "../armyData/medicalData/chestWounds";
+import AnaphylacticShock from "../armyData/medicalData/anaphylacticShock";
+import CasualtyEvaluation from "../armyData/medicalData/casualtyEvaluation";
+import Anatomy from "../armyData/medicalData/anatomy";
 
 export const MedicalRoutes = (
   <>
     <Route path="abdominal-wounds" element={<AbdominalWounds />} />
     <Route path="airway" element={<Airway />} />
-
+    <Route path="anaphylactic-shock" element={<AnaphylacticShock />} />
+    <Route path="anatomy" element={<Anatomy />} />
     <Route path="bleeding" element={<Bleeding />} />
     <Route path="burns" element={<Burns />} />
 
+    <Route path="casualty-evaluation" element={<CasualtyEvaluation />} />
     <Route path="cold-weather-injuries" element={<ColdWeatherInjuries />} />
     <Route path="chest-wounds" element={<ChestWounds />} />
     <Route

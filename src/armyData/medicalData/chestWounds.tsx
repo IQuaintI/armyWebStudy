@@ -16,8 +16,8 @@ function ChestWounds() {
             "Expose the wound unless it is stick or you are in a CBRN environment.",
             <span>
               <strong>
-                If you have to ask yourself it constitutes an "open" chest wound
-                - treat it like one!
+                Any wounds between the neck and the navel are considered chest!
+                wounds!
               </strong>
             </span>,
             <span>
@@ -44,34 +44,35 @@ function ChestWounds() {
                 applied in a similar manner!
               </strong>
             </span>,
-            "Do not touch the adhesive side of the chest seal and ensure that edges of the seal extend two inches beyond the wound.",
-            "If wound is not airtight, tape from the casualty's IFAK can be used to secure the edges of the chest seal, while avoiding the vents.",
+
+            <span>
+              <strong>
+                Do not touch the adhesive side of the chest seal and ensure that
+                edges of the seal extend two inches beyond the wound!
+              </strong>
+            </span>,
+            <span>
+              <strong>
+                If wound is not airtight, tape from the casualty's IFAK can be
+                used to secure the edges of the chest seal, while avoiding the
+                vents!
+              </strong>
+            </span>,
+            "Sit the patient upright and then inspect the back for any wounds and treat any found as chest wounds.",
+            "Place the casualty in a position that they find comfortable and ask that they breathe normally.",
+            "If the casualty is unconscious, place them in the recovery position and monitor their breathing.",
+            "If the casualty develops issues with breathing, remove the chest seal, wipe down the area, then re-apply or replace the chest seal.",
           ],
         },
         {
           question:
             "How do you apply an improvised chest seal to an open chest wound?",
           answer: [
-            "Apply that you and the casualty both have a mask on.",
-            "If the casualty is awake, have them clear their mask.",
-            "Ensure the protective hood is on and the put the casualty in the recovery position.",
-            "Use the casualty's auto-injector's to administer up to three doses of the ATNAA.",
+            "The process for applying an improvised chest seal is similar to that of a commercial chest seal save that the improvised chest seal MUST be taped on three sides.",
             <span>
-              <strong>
-                If the casualty improves after the a dose do NOT give them any
-                more, but continue to monitor!
-              </strong>
+              <strong>Do NOT tape the side closest to the ground!</strong>
             </span>,
-            "If the casualty needs to be given a third injection, a CANA auto-injector is to be administered after the third injection.",
-            "The injection site and administering is the same as the ATNAAs.",
-            "Bend the used needles into hooks and account for them.",
-            "Done the rest of their protective gear and continue to monitor the casualty.",
-            <span>
-              <strong>
-                When administering the injections, do NOT kneel down as you may
-                be exposed to the nerve agent!
-              </strong>
-            </span>,
+            "The material used for the improvised chest seal should be non-porous, airtight, and should extend two inches beyond the wound.",
           ],
         },
       ],

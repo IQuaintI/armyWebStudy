@@ -11,11 +11,20 @@ const MedicalLayout = () => {
             { title: "Home", href: "/" },
             { title: "Abdominal Wounds", href: "/medical/abdominal-wounds" },
             { title: "Airway", href: "/medical/airway" },
+            {
+              title: "Anaphylactic Shock",
+              href: "/medical/anaphylactic-shock",
+            },
+            { title: "Anatomy", href: "/medical/anatomy" },
             { title: "Bleeding", href: "/medical/bleeding" },
             { title: "Burns", href: "/medical/burns" },
             {
               title: "Carbon Monoxide Poisoning",
               href: "/medical/carbon-monoxide-poisoning",
+            },
+            {
+              title: "Casualty Evaluation",
+              href: "/medical/casualty-evaluation",
             },
             {
               title: "Chest Wounds",
