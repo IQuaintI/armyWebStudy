@@ -3,68 +3,82 @@ import Carousel from "../../components/Carousel";
 import CustomAccordion from "../../components/Accordion";
 import BlockQuote from "../../components/BlockQuote";
 
-function Anatomy() {
+function Transportation() {
   // Define topics here if they need dynamic rendering or pass them as props
   const topics = [
     {
-      heading: "Blood",
+      heading: "Vehicle Extraction",
       sections: [
         {
-          question: "What is blood?",
+          question: "How do you preform a lateral vehicle extraction?",
           answer: [
-            "It is a mixture of cells and plasma that circulates through the body that circulate throughout the body and delivers essential substances like oxygen and nutrients to the body's cells.",
+            "This requires two soldiers to grab the arms and legs of the casualty and lift them out of the vehicle.",
+            "Ensure that the head is supported and the neck is not twisted.",
             <span>
               <strong>
-                There are about 5 liters of blood in the human body and it takes
-                about 20 seconds for blood to circulate through the entire body.
+                Medical personnel may utilize a backboard to stabilize the spine
+                and prevent further injury!
               </strong>
             </span>,
           ],
         },
         {
-          question: "What are blood vessels?",
+          question: "How do you preform a vertical vehicle extraction?",
           answer: [
-            "Blood vessels are the various types of tubes that carry blood throughout the body.",
-            "Arteries carry oxygenated blood away from the heart to the body's tissues.",
-            "Arterioles are small arteries that connect to capillaries.",
-            "Capillaries are tiny blood vessels that connect arterioles to venules.",
-            "Venules are small veins that connect to veins.",
-            "Veins carry deoxygenated blood back to the heart.",
+            "Wrap something around the casualty's chest and under their arms to lift them out of the vehicle.",
+            "If a wrap is not available, two soldiers can grab the casualty's arms and lift them out of the vehicle.",
+            "Ensure that the head is supported and the neck is not twisted.",
           ],
         },
       ],
     },
     {
-      heading: "Respiratory System",
+      heading: "Types of Carries",
       sections: [
         {
-          question: "What is the respiratory system?",
+          question: "What are some types of carries?",
           answer: [
-            "Human being requires oxygen to survive and the respiratory system is responsible for bringing oxygen into the body and expelling carbon dioxide.",
-
-            "Adults breathe about 12-20 times per minute.",
-
-            "Children (1-10 years) breathe about 15-30 times per minute.",
-
-            "Infants (6-12 months) breathe about 25-50 times per minute.",
-
-            "Infants (0-6 months) breathe about 25-40 times per minute.",
-
-            "Infants (0-6 months) breathe about 25-40 times per minute.",
+            "The neck drag is used when the casualty is in a dangerous area and needs to be moved quickly.",
+            "The cradle-drop drag is used when the casualty cannot walk and needs to be moved up or down stairs.",
+            "The fireman's carry is used when the casualty is unconscious or badly wounded.",
+            <span>
+              <strong>
+                It is almost impossible to lift a fully-loaded soldier on your
+                shoulders and move quickly!
+              </strong>
+            </span>,
           ],
         },
         {
-          question: "What are the components of the respiratory system?",
+          question: "How do you preform a fireman's carry?",
           answer: [
-            "The lungs are a pair of organs that are full of air sacs covered called a pleura that are covered by a airtight membrane called the pleura.",
-            "The rib cage is a series of bones that are connected by muscles which join the sternum and the spine.",
-            "The airways are the tubes that carry air to the lungs and are composed of the nose, mouth, throat, voice box, and windpipe.",
+            "Kneel at the casualty's uninjured side and place their arm above their head.",
+            "Cross the casualty's ankles from the uninjured side over the injured side.",
+            "Grasp the casualty's shoulder and thigh then roll the casualty towards you.",
+            "Straddle the casualty's body, wrap your arms around their waist, and stand up while ensuring the casualty's legs are locked.",
+            "Raise one of the casualty's arms and place it across your shoulders while supporting the casualty's weight with your shoulder and other arm.",
+            "Place a foot between the casualty's feet and use the arm not supporting the casualty to grasp the casualty's wrist.",
+            "Couch down and place the supporting arm under the casualty's thigh and stand up while lifting the casualty.",
+          ],
+        },
+        {
+          question: "How do you preform a neck drag?",
+          answer: [
+            "Ensure the casualty is face-up and their head is supported.",
+          ],
+        },
+        {
+          question: "How do you preform a cradle-drop drag?",
+          answer: [
+            "Kneel at the casualty's head and place their arms above their head.",
+            "Grasp the casualty's arms and drag them towards you.",
+            "Roll the casualty towards you and drag them to safety.",
           ],
         },
       ],
     },
     {
-      heading: "Musculoskeletal System",
+      heading: "Litters",
       sections: [
         {
           question: "What is the musculoskeletal system?",
@@ -101,7 +115,7 @@ function Anatomy() {
       ],
     },
     {
-      heading: "Circulatory System",
+      heading: "Loading onto a Vehicle",
       sections: [
         {
           question: "What is the circulatory system?",
@@ -170,9 +184,9 @@ function Anatomy() {
         >
           <Grid item className="item-spacing">
             <BlockQuote
-              header="Anatomy"
+              header="Transportation"
               content={[
-                "Anatomy is the scientific study of the structure of living organisms, including their systems, organs, and tissues, essential for understanding bodily functions and the basis of medical science.",
+                "Transporting a casualty is a critical part of the medical evacuation process.",
               ]}
               source={["- TC 4-02.1 (2016)"]}
             />
@@ -194,4 +208,4 @@ function Anatomy() {
   );
 }
 
-export default Anatomy;
+export default Transportation;

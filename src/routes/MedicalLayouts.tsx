@@ -67,6 +67,10 @@ const MedicalLayout = () => {
               href: "/medical/stings-and-bites",
             },
             {
+              title: "Transportation",
+              href: "/medical/transportation",
+            },
+            {
               title: "Nerve Agents",
               href: "/medical/nerve-agents",
             },

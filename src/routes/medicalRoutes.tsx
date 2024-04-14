@@ -18,6 +18,7 @@ import ChestWounds from "../armyData/medicalData/chestWounds";
 import AnaphylacticShock from "../armyData/medicalData/anaphylacticShock";
 import CasualtyEvaluation from "../armyData/medicalData/casualtyEvaluation";
 import Anatomy from "../armyData/medicalData/anatomy";
+import Transportation from "../armyData/medicalData/transportation";
 
 export const MedicalRoutes = (
   <>
@@ -52,6 +53,8 @@ export const MedicalRoutes = (
 
     <Route path="shock" element={<Shock />} />
     <Route path="stings-and-bites" element={<StingsAndBites />} />
+
+    <Route path="transportation" element={<Transportation />} />
 
     <Route path="nerve-agents" element={<NerveAgents />} />
     {/* more nested routes */}
