@@ -64,15 +64,24 @@ function Transportation() {
         {
           question: "How do you preform a neck drag?",
           answer: [
-            "Ensure the casualty is face-up and their head is supported.",
+            "Ensure the casualty is face-up and straddle them with one leg on each side of their body.",
+            "Come down so that you are face to face with the casualty and have them place their arms around your neck.",
+            "If the casualty is unconscious, the neck drag is still possible by tieing their wrists and putting your head through.",
+            <span>
+              <strong>
+                Protect the casualty's head if the casualty is unconscious!
+              </strong>
+            </span>,
+            "Crawl forward will looking ahead.",
           ],
         },
         {
           question: "How do you preform a cradle-drop drag?",
           answer: [
-            "Kneel at the casualty's head and place their arms above their head.",
-            "Grasp the casualty's arms and drag them towards you.",
-            "Roll the casualty towards you and drag them to safety.",
+            "Have the casualty supine and kneel behind their head.",
+            "Sit them up and rest the back of their torso on your knee.",
+            "Run your arms under the casualty's armpits and clasp your hands.",
+            "Stand up, lift the casualty, and walk backwards.",
           ],
         },
       ],
@@ -81,35 +90,81 @@ function Transportation() {
       heading: "Litters",
       sections: [
         {
-          question: "What is the musculoskeletal system?",
+          question: "How do you prepare a flexible litter for use?",
           answer: [
-            "The musculoskeletal system is responsible for the body's form, support, stability, and movement.",
+            "Remove the litter from its carrying case and unfold it.",
+            "Ensure the litter is flat and the straps are not twisted.",
+            "Prior to putting the casualty in the litter, take note of the headboard and footboard.",
           ],
         },
         {
-          question: "What are the components of the musculoskeletal system?",
+          question: "How do you secure a casualty to a flexible litter?",
           answer: [
-            "The bones are the body's framework and are made up of calcium and phosphorus.",
+            "Place the litter besides the casualty and ensure the headboard is at the casualty's head.",
+            "Place the straps under the board and roll the casualty onto their side.",
+            "Slide the litter under the casualty and roll them back onto the litter.",
+            "Carefully slide the casualty to the center of the litter.",
+            "Pull out the straps, bring them across the casualty, and hook them to the buckles on the opposing side.",
+          ],
+        },
+        {
+          question: "How do you move a casualty in a flexible litter?",
+          answer: [
+            "With two soldiers on each side, have them grab the handles on the sides of the litter.",
+            'The preparatory command of "Prepare to Lift" is given and the command of "Lift" is given to lift the litter in a smooth motion.',
+          ],
+        },
+        {
+          question: "How do you prepare a folding litter for use?",
+          answer: [
+            "Remove the litter from the bag, stand it upright, and undo the buckles.",
+            "Place it on the ground and pull it open until it is fully extended.",
+            "Ensure that the spreader bars are locked and the straps are not twisted.",
             <span>
               <strong>
-                The human body has 206 bones with 80 in the axial skeleton
-                (head, ribs, spine, and sternum) and 126 in the appendicular
-                skeleton (the rest of the body).
+                This is easier to do with two soldiers, one on each side of the
+                litter!
               </strong>
             </span>,
-            "Joints are the connections between bones that allow for movement.",
-            "Muscles are the tissues that contract and relax to move the body.",
-            <span>
-              <strong>
-                There are three types of muscles: skeletal (voluntary and move
-                the body), smooth (involuntary and serves as the boundary for
-                arteries and bowels), and cardiac (involuntary and walls the
-                heart).
-              </strong>
-            </span>,
-            "Cartilage is the tissue that cushions the joints.",
-            "Ligaments are the tissues that connect bones to bones.",
-            "Tendons are the tissues that connect muscles to bones.",
+          ],
+        },
+        {
+          question: "How do you secure a casualty to a folding litter?",
+          answer: [
+            "Place the litter besides the casualty and ensure one end is level with the casualty's head.",
+            "Roll the casualty onto their side and place the litter under them.",
+            "Slide the litter under the casualty and roll them back onto the litter.",
+            "Carefully slide the casualty to the center of the litter.",
+            "Strap the casualty to the litter by placing the straps under the litter and buckling them on the opposing side.",
+          ],
+        },
+        {
+          question: "How do you move a casualty in a folding litter?",
+          answer: [
+            "With two soldiers, one at the head and one at the foot, have them grab the handles on the sides of the litter.",
+            'The preparatory command of "Prepare to Lift" is given and the command of "Lift" is given to lift the litter in a smooth motion.',
+          ],
+        },
+        {
+          question: "How do you use a poncho as an improvised litter?",
+          answer: [
+            "Open the poncho and lay two poles running vertically along the length of the poncho.",
+            "Fold one-third of the poncho over a pole and the other third over the other pole.",
+            "Place the casualty on the poncho and place the casualty in the center of the poles.",
+          ],
+        },
+        {
+          question: "How do you use a jacket as an improvised litter?",
+          answer: [
+            "Turn tow jackets inside out, leave the sleeves inside, and zip them up.",
+            "Run a pole through the sleeves of the jackets and place the casualty in the center of the jackets.",
+          ],
+        },
+        {
+          question: "How do you move a casualty in an improvised litter?",
+          answer: [
+            "With two soldiers on each side, have them grab the handles on the sides of the litter.",
+            'The preparatory command of "Prepare to Lift" is given and the command of "Lift" is given to lift the litter in a smooth motion.',
           ],
         },
       ],
@@ -118,47 +173,47 @@ function Transportation() {
       heading: "Loading onto a Vehicle",
       sections: [
         {
-          question: "What is the circulatory system?",
+          question: "How do you load a casualty onto an ambulance?",
           answer: [
-            "The circulatory system is responsible for transporting blood throughout the body.",
-          ],
-        },
-        {
-          question: "What is a heartbeat?",
-          answer: [
-            "A heartbeat is the sound of the heart valves closing as the heart contracts and relaxes.",
-
-            "Adults have a heartbeat of about 60-100 beats per minute.",
-
-            "Children (1-6 years) have a heartbeat of about 70-120 beats per minute.",
-
-            "Infants (6-12 months) have a heartbeat of about 80-140 beats per minute.",
-
-            "Infants (0-6 months) have a heartbeat of about 90-140 beats per minute.",
+            "Ensure that the casualty is secured to the litter and load the casualty head first in the direction of travel.",
+            "Secure the litter to the ambulance and ensure the casualty is comfortable.",
             <span>
               <strong>
-                Soldiers, like athletes, may have a lower heartbeat (40 - 60
-                BPM) due to physical conditioning!
+                The most injured casualty should be loaded last so that they are
+                the first to be unloaded!
               </strong>
             </span>,
           ],
         },
         {
-          question: "What is the heart?",
+          question: "How do you load a casualty onto an air ambulance?",
           answer: [
-            "The heart is a muscle that pumps blood throughout the body.",
-            "The right side of the heart pumps blood to the lungs where it receives oxygen.",
-            "The left side of the heart pumps blood to the body's tissues.",
+            "Stay 50 yards away from the helicopter until motioned to approach.",
+            "Stay in view of the aircrew and ensure that they can accurately distinguish personnel.",
+            "Approach a UH-60/UH-1 from the sides, the CH-47 from the rear, the MH-53 from the sides to the rear, the M/C-130//C-17//C-5B from the rear.",
+            "Load the most seriously injured casualty first and place them in the direction of travel lengthwise.",
+            "When loading the litters, load the upper berth first and the lower second to prevent the upper berth from falling on the lower berth.",
+            "Secure the litter to the aircraft and ensure the casualty is comfortable.",
+            <span>
+              <strong>
+                Listen to the flight medic's instructions and NEVER approach a
+                UH-60/UH-1 from the rear!
+              </strong>
+            </span>,
           ],
         },
         {
-          question: "What is a pulse?",
+          question:
+            "How do you load a casualty onto a non-medical ground vehicle?",
           answer: [
-            "A pulse is the rhythmic throbbing of the arteries as blood is pumped through them.",
-            "It is the most common way a physiological assessment is made in the field.",
-            "The carotid artery is in the neck and is checked by placing two fingers aside the Adam's apple",
-            "The femoral artery is in the groin and is checked by placing two fingers in the crease between the thigh and the abdomen.",
-            "The posterior tibial artery is in the ankle and is checked by placing two fingers on the inside of the ankle.",
+            "Ensure that the casualty is secured to the litter and load the casualty head first in the direction of travel.",
+            "Secure each litter to the vehicle as they are placed and ensure that the casualty is comfortable.",
+            <span>
+              <strong>
+                Non-medical ground vehicles used for casualty evacuation are
+                called CASEVAC!
+              </strong>
+            </span>,
           ],
         },
       ],
