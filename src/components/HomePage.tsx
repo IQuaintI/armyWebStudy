@@ -7,7 +7,7 @@ function HomePage() {
   const cards = [
     {
       title: "Armaments",
-      link: "/testing",
+      link: "/weapon",
       image: "https://via.placeholder.com/150",
     },
     {

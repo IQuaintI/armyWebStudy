@@ -3,7 +3,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import BlockQuote from "../components/BlockQuote";
 import "../css/Page.scss";
 
-function Medical() {
+function Weapons() {
   const location = useLocation(); // Hook to get the current location object
 
   return (
@@ -15,7 +15,7 @@ function Medical() {
       style={{ minHeight: "100vh" }} // Ensure the container takes at least the full viewport height
     >
       {/* Conditionally render BlockQuote only on the /medical route */}
-      {location.pathname === "/medical" && (
+      {location.pathname === "/weapon" && (
         <Grid
           item
           xs={12}
@@ -28,14 +28,14 @@ function Medical() {
         >
           {/* Ensure source is passed as an array of strings */}
           <BlockQuote
-            header="So, surely with hardship comes ease. Surely with that hardship comes more ease."
-            source={["Ash-Sharh, 94:5-6"]}
+            header="Blessed are the meek, for they will inherit the earth."
+            source={["Matthew 5:5"]}
           />
         </Grid>
       )}
 
       {/* Outlet for nested routes, ensuring it does not render simultaneously with the quote */}
-      {location.pathname !== "/medical" && (
+      {location.pathname !== "/weapon" && (
         <Grid item xs={12}>
           <Outlet />
         </Grid>
@@ -44,4 +44,4 @@ function Medical() {
   );
 }
 
-export default Medical;
+export default Weapons;

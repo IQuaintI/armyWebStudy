@@ -18,7 +18,8 @@ function App() {
             subtitle="Explore ACS"
             home="Home"
             sections={[
-              { link: "/page", title: "Testing" },
+              { link: "/medical", title: "Medical" },
+              { link: "/weapon", title: "Weapons" },
               { link: "https://www.google.com", title: "Google" },
               { link: "https://www.bing.com", title: "Bing" },
             ]}
