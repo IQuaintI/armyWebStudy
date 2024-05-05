@@ -49,137 +49,14 @@ function WeaponComponents() {
         {
           question: "What are the cycles of function for the M4 carbine?",
           answer: [
-            "Feeding, Chambering, Locking, Firing, Unlocking, Extracting, Ejecting, and Cocking.",
-            "The cycle begins when the bolt is locked to the rear, a magazine is inserted, and a round is chambered.",
-          ],
-        },
-        {
-          question: "What is FEEDING in the cycle of function?",
-          answer: [
-            "Feeding is the process of entering a round into the chamber.",
-          ],
-        },
-        {
-          question: "What is weapon safety status RED?",
-          answer: [
-            "The weapon is on safe and the the bolt is forward with a round in the chamber.",
-          ],
-        },
-        {
-          question: "What is weapon safety status BLACK?",
-          answer: ["The weapon is on fire with a loaded chamber."],
-        },
-      ],
-    },
-    {
-      heading: "Control Status",
-      sections: [
-        {
-          question: "What is weapon control status?",
-          answer: [
-            "It refers to the readiness of a weapon in regards to its anticipated use.",
-            // Additional topics...
-          ],
-        },
-        {
-          question: "What does WEAPONS HOLD mean?",
-          answer: [
-            "Engage when ordered to do so or when engaged by the enemy.",
-          ],
-        },
-        {
-          question: "What does WEAPONS TIGHT mean?",
-          answer: [
-            "Engage only if the enemy has been positively identified as an enemy combatant.",
-          ],
-        },
-        {
-          question: "What does WEAPONS FREE mean?",
-          answer: [
-            "Engage only if the enemy has been positively identified as an enemy combatant.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "Overmatch",
-      sections: [
-        {
-          question: "What is overmatch?",
-          answer: [
-            "The Soldiers ability to utilize theirs skills and equipment to defeat the enemy.",
-          ],
-        },
-        {
-          question: "What are the four attributes of overmatch?",
-          answer: [
-            "Lethal - The ability to kill or destroy the enemy.",
-            "Precise - Consistent and accurate target engagement.",
-            "Fast - Physical and mental outmaneuvering of the enemy.",
-            "Smart - Understanding changes in the environment and adapting to them.",
-          ],
-        },
-        {
-          question: "What are the components of overmatch?",
-          answer: [
-            "Engagement Range",
-            "Target Detection, Acquisition, and Identification",
-            "Precision",
-            "Limited Visibility",
-            "Terminal performance",
-            "Speed",
-          ],
-        },
-        {
-          question: "What is the engagement range?",
-          answer: [
-            "Soldiers require a weapon system that can engage the enemy at a range that is greater than the enemy's weapon system.",
-            <span>
-              <strong>
-                Range overmatch is most useful in giving the Soldier greater
-                time to utilize precision fires!
-              </strong>
-            </span>,
-          ],
-        },
-        {
-          question:
-            "What is target detection, acquisition, and identification?",
-          answer: [
-            "Soldier must be able to detect, acquire, and identify targets at ranges further than the maximum effective range of their weapons.",
-          ],
-        },
-        {
-          question: "What is precision?",
-          answer: [
-            "Soldiers have to be well-trained to fully utilize the maximum effective range of their weapons and munitions.",
-          ],
-        },
-        {
-          question: "What is limited visibility?",
-          answer: [
-            "Soldiers must be able to engage targets in all light conditions and this is often done with the use of aiming devices that minimize limited visibility.",
-            <span>
-              <strong>
-                Systems that allow for optical overmatch have shortcomings, so
-                it is important that the Soldier is aware of what they are!
-              </strong>
-            </span>,
-          ],
-        },
-        {
-          question: "What is speed?",
-          answer: [
-            "Soldiers must be able to identify, engage, and destroy targets as quickly as possible.",
-            <span>
-              <strong>Speed is built through training!</strong>
-            </span>,
-          ],
-        },
-        {
-          question: "What is terminal performance?",
-          answer: [
-            "Soldiers must understand the ability and limitations of their ammunition to ensure that they can defeat the enemy.",
+            "Feeding - Feeding is the process of the bolt stripping a round from the magazine.",
+            "Chambering - Chambering is the process of the round being placed into the chamber.",
+            "Locking - Locking is the process of the bolt moving forward and locking into the barrel.",
+            "Firing - Firing is the process of the weapon discharging a round.",
+            "Unlocking - Unlocking is the process of the bolt unlocking from the barrel and moving rearward.",
+            "Extracting - Extracting is the process of the spent casing being removed from the chamber.",
+            "Ejecting - Ejecting is the process of the spent casing being ejected from the weapon.",
+            "Cocking - Cocking is the process of the hammer being reset.",
           ],
         },
       ],
