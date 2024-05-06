@@ -71,145 +71,20 @@ function Optics() {
             "LCD Eyepiece - The eyepiece displays the image to the user.",
             "Objective Lens - The lens receives the heat signatures and focuses them onto the detector.",
             <span>
-                <strong>
-                    The detector can pick up differences as small as 1 degree Celsius!
-                </strong>
-            </span>
-          ],
-        },
-        {
-          question: "What is weapon safety status AMBER?",
-          answer: [
-            "The weapon is on safe, the chamber is clear, and the magazine is inserted.",
-            <span>
               <strong>
-                It is not possible to go back to AMBER from RED or BLACK without
-                first going to GREEN!
+                The detector can pick up differences as small as 1 degree
+                Celsius!
               </strong>
             </span>,
           ],
         },
         {
-          question: "What is weapon safety status RED?",
+          question: "What is the AN/PAS-13?",
           answer: [
-            "The weapon is on safe and the the bolt is forward with a round in the chamber.",
-          ],
-        },
-        {
-          question: "What is weapon safety status BLACK?",
-          answer: ["The weapon is on fire with a loaded chamber."],
-        },
-      ],
-    },
-    {
-      heading: "Control Status",
-      sections: [
-        {
-          question: "What is weapon control status?",
-          answer: [
-            "It refers to the readiness of a weapon in regards to its anticipated use.",
-            // Additional topics...
-          ],
-        },
-        {
-          question: "What does WEAPONS HOLD mean?",
-          answer: [
-            "Engage when ordered to do so or when engaged by the enemy.",
-          ],
-        },
-        {
-          question: "What does WEAPONS TIGHT mean?",
-          answer: [
-            "Engage only if the enemy has been positively identified as an enemy combatant.",
-          ],
-        },
-        {
-          question: "What does WEAPONS FREE mean?",
-          answer: [
-            "Engage only if the enemy has been positively identified as an enemy combatant.",
-          ],
-        },
-      ],
-    },
-    {
-      heading: "Overmatch",
-      sections: [
-        {
-          question: "What is overmatch?",
-          answer: [
-            "The Soldiers ability to utilize theirs skills and equipment to defeat the enemy.",
-          ],
-        },
-        {
-          question: "What are the four attributes of overmatch?",
-          answer: [
-            "Lethal - The ability to kill or destroy the enemy.",
-            "Precise - Consistent and accurate target engagement.",
-            "Fast - Physical and mental outmaneuvering of the enemy.",
-            "Smart - Understanding changes in the environment and adapting to them.",
-          ],
-        },
-        {
-          question: "What are the components of overmatch?",
-          answer: [
-            "Engagement Range",
-            "Target Detection, Acquisition, and Identification",
-            "Precision",
-            "Limited Visibility",
-            "Terminal performance",
-            "Speed",
-          ],
-        },
-        {
-          question: "What is the engagement range?",
-          answer: [
-            "Soldiers require a weapon system that can engage the enemy at a range that is greater than the enemy's weapon system.",
-            <span>
-              <strong>
-                Range overmatch is most useful in giving the Soldier greater
-                time to utilize precision fires!
-              </strong>
-            </span>,
-          ],
-        },
-        {
-          question:
-            "What is target detection, acquisition, and identification?",
-          answer: [
-            "Soldier must be able to detect, acquire, and identify targets at ranges further than the maximum effective range of their weapons.",
-          ],
-        },
-        {
-          question: "What is precision?",
-          answer: [
-            "Soldiers have to be well-trained to fully utilize the maximum effective range of their weapons and munitions.",
-          ],
-        },
-        {
-          question: "What is limited visibility?",
-          answer: [
-            "Soldiers must be able to engage targets in all light conditions and this is often done with the use of aiming devices that minimize limited visibility.",
-            <span>
-              <strong>
-                Systems that allow for optical overmatch have shortcomings, so
-                it is important that the Soldier is aware of what they are!
-              </strong>
-            </span>,
-          ],
-        },
-        {
-          question: "What is speed?",
-          answer: [
-            "Soldiers must be able to identify, engage, and destroy targets as quickly as possible.",
-            <span>
-              <strong>Speed is built through training!</strong>
-            </span>,
-          ],
-        },
-        {
-          question: "What is terminal performance?",
-          answer: [
-            "Soldiers must understand the ability and limitations of their ammunition to ensure that they can defeat the enemy.",
+            "The AN/PAS-13 is a series of thermal sights that are available for use on light, medium, and heavy weapons.",
+            "They are small. lightweight, quiet, have a long batter life, and provide an image in real-time.",
+            "They can be used on a variety of weapons and the G and F model can be attached to one another allowing for greater precision.",
+            "The AN/PAS-13 can NOT view all ranges of the infrared band, is not always capable of seeing markings on uniforms, and is reliant on batteries.",
           ],
         },
       ],
