@@ -44,38 +44,54 @@ function Lasers() {
         {
           question: "What is a AN/PEQ-2?",
           answer: [
-            "Thermal sights detect heat signatures and replicate the temperature differences on a screen.",
+            "A AN/PEQ-2 is a laser aiming device that has both a precise and flood light beam with each beam being able to be zeroed independently.",
+            "They are designed to be used alongside night vision goggles and can be be mounted to a weapon or held in the hand.",
+            "It has an optical baffle that prevents off-site viewing and is powered by a pair of AA battery.",
+            <span>
+              <strong>
+                AN/PEQ is a military designation that stands for: AN =
+                Army/Navy, P = Portable, E = Laser, Q = Special or Combination!
+              </strong>
+            </span>,
+            <span>
+              <strong>The AN/PEQ-2 does NOT have a visible laser!</strong>
+            </span>,
           ],
         },
         {
-          question: "What are the components of a thermal sight?",
+          question: "What is a AN/PEQ-15?",
           answer: [
-            "User Controls - Used to adjust the thermal sensitivity, magnification, and contrast.",
-            "Sensor Assembly - The sensor processes the video signals into an image that is displayed on the screen.",
-            "Detector Assembly - The detector converts the heat signatures into video signals.",
-            "LCD Eyepiece - The eyepiece displays the image to the user.",
-            "Objective Lens - The lens receives the heat signatures and focuses them onto the detector.",
+            "A AN/PEQ-15 is a laser aiming device that has both a visible laser for close quarters engagements and an infrared laser for covert engagements that are zeroed together.",
+            "They are designed to be used alongside night vision goggles and can be be mounted to a weapon or held in the hand.",
             <span>
               <strong>
-                The detector can pick up differences as small as 1 degree
-                Celsius!
+                The AN/PEQ-15 does have a high power mode that is only yto be
+                used when engaging targets at targets exceeding 220 meters!
               </strong>
             </span>,
           ],
         },
         {
-          question: "What is the AN/PAS-13?",
+          question: "What is a AN/PEQ-15A?",
           answer: [
-            "The AN/PAS-13 is a series of thermal sights that are available for use on light, medium, and heavy weapons.",
-            "They are small. lightweight, quiet, have a long batter life, and provide an image in real-time.",
-            "They can be used on a variety of weapons and the G and F model can be attached to one another allowing for greater precision.",
-            "The AN/PAS-13 can NOT view all ranges of the infrared band, is not always capable of seeing markings on uniforms, and is reliant on batteries.",
+            "A AN/PEQ-15 is a laser aiming device that has both a visible laser for close quarters engagements and an infrared laser for covert engagements that are zeroed together.",
+            "They are designed to be used alongside night vision goggles and can be be mounted to a weapon or held in the hand.",
+            <span>
+              <strong>
+                The AN/PEQ-15A has similar features to the AN/PEQ-15 but it has
+                a redesigned chassis!
+              </strong>
+            </span>,
           ],
         },
         {
-          question: "What is weapon safety status RED?",
+          question: "What is a AN/PSQ-23?",
           answer: [
-            "The weapon is on safe and the the bolt is forward with a round in the chamber.",
+            "The AN/PSQ-23 (colloquially referred  to as the STORM laser) is a a laser system with range finding capabilities and a digital magnetic compass.",
+            "The range finder is accurate from 20m to 10,000m within 1.5m.",
+            "The com
+            "It has a visible laser for close quarters engagements and an infrared laser for covert engagements that are zeroed together.",
+            "It features a an infrared illuminator that is zeroed differently from the lasers.",
           ],
         },
         {
