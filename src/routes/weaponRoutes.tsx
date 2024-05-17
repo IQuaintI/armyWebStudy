@@ -6,6 +6,8 @@ import UnitsOfMeasurement from "../armyData/weaponsData/unitsOfMeasurement";
 import Reticle from "../armyData/weaponsData/reticle";
 import Optics from "../armyData/weaponsData/optics";
 import Lasers from "../armyData/weaponsData/lasers";
+import Mountables from "../armyData/weaponsData/mountables";
+import ShotProcess from "../armyData/weaponsData/shotProcess";
 
 export const WeaponRoutes = (
   <>
@@ -19,6 +21,8 @@ export const WeaponRoutes = (
     <Route path="/weapon/reticle" element={<Reticle />} />
     <Route path="/weapon/optics" element={<Optics />} />
     <Route path="/weapon/lasers" element={<Lasers />} />
+    <Route path="/weapon/mountables" element={<Mountables />} />
+    <Route path="/weapon/shot-process" element={<ShotProcess />} />
 
     {/* more nested routes */}
   </>

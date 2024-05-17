@@ -9,13 +9,18 @@ const WeaponLayout = () => {
         <Sidebar
           items={[
             { title: "Home", href: "/" },
-            { title: "Units of Measurement", href: "/weapon/units-of-measurement" },
+            {
+              title: "Units of Measurement",
+              href: "/weapon/units-of-measurement",
+            },
             { title: "Safety", href: "/weapon/safety" },
             { title: "Weapon Components", href: "/weapon/components" },
             { title: "Cooling", href: "/weapon/cooling" },
-            { title: "Reticle", href: "/weapon/reticle"},
-            { title: "Optics", href: "/weapon/optics"},
-            { title: "Lasers", href: "/weapon/lasers"}
+            { title: "Reticle", href: "/weapon/reticle" },
+            { title: "Optics", href: "/weapon/optics" },
+            { title: "Lasers", href: "/weapon/lasers" },
+            { title: "Mountables", href: "/weapon/mountables" },
+            { title: "Shot Process", href: "/weapon/shot-process" },
             // Add more sidebar items as needed
           ]}
         />
