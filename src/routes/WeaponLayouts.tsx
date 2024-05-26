@@ -21,6 +21,7 @@ const WeaponLayout = () => {
             { title: "Lasers", href: "/weapon/lasers" },
             { title: "Mountables", href: "/weapon/mountables" },
             { title: "Shot Process", href: "/weapon/shot-process" },
+            { title: "Stability", href: "/weapon/stability" },
             // Add more sidebar items as needed
           ]}
         />

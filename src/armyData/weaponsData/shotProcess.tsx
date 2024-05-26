@@ -66,16 +66,90 @@ function ShotProcess() {
           ],
         },
         {
-          question: "What are the elements of the shot process?",
+          question: "What are the three elements of target acquisition?",
           answer: [
-            "Aim - The process of aligning the weapon with the target.",
-            "Stability - The Soldier provides a base for the weapon to disperse recoil.",
-            "Control - The Soldier's conscious effort to manipulate the weapon to include safety, trigger control, and follow-through.",
-            "Movement - The Soldier's ability to maneuver while maintaining the weapon's alignment with the target.",
+            "Detection - The ability to recognize a target.",
+            "Identification - The ability to determine if the target is a threat.",
+            "Prioritization - The ability to determine which target to engage first.",
+          ],
+        },
+        {
+          question: "What are the three elements of target detection?",
+          answer: [
+            "Scan - The ability to search for targets in a systematic manner.",
+            "Acquire - The ability to fine tune a search when an irregularity is detected.",
+            "Locate - The ability to pinpoint the target's location.",
+          ],
+        },
+        {
+          question: "What are the five different scanning techniques?",
+          answer: [
+            "Rapid Scan - A brief ocular pat-down that reveals immediate threats and is usually used first.",
+            "Slow Scan - If the rapid scan does not reveal a threat, the slow scan is a more detailed search often done with aiming devices.",
+            "Detailed Scan - The most thorough search that is done when a threat is not detected and is done with a variety of mechanical aids.",
+            "Vertical Scan - A scan used predominately in urban environments to detect threats at different elevations.",
+            "Horizontal Scan - A scan that prioritizes threats at key points of interest.",
             <span>
               <strong>
-                The most complex shooting conditions is when both the shooter
-                and target are moving under low-visibility!
+                A Soldier is not necessarily looking for a person, but for
+                "signatures" that indicate that an asset of military value is or
+                has been present!
+              </strong>
+            </span>,
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Target Identification",
+      sections: [
+        {
+          question: "What is are the three types of targets?",
+          answer: [
+            "Friend - Soldiers, vehicles, and equipment that are part of the same or allied forces.",
+            "Non-Combatants - Individuals or organizations that are not belligerents.",
+            "Foe - Soldiers, vehicles, and equipment that are part of the opposing force.",
+            <span>
+              <strong>
+                Journalist, medical personnel, chaplains, wounded, or members of
+                the Red Cross/Red Crescent are considered non-combatants!
+              </strong>
+            </span>,
+          ],
+        },
+        {
+          question:
+            "What are some ways that Soldiers discriminate between friends and foes?",
+          answer: [
+            "Panels - VS-17 panels are used to identify allied forces during daylight operations and do not provide a thermal signature.",
+            "Lighting - Chemical lights are often used for low-light operations although they cannot be seen via thermal imaging outside of an IR variant.",
+            "Symbols - Unit symbols can be applied to vehicles to identify them as friendly.",
+            "Beacons / Strobes - These are battery powered devices that are seen through night vision optics, but can not be seen through thermal imaging.",
+            "Markings - Markings are unit SOP determined and are standardized to prevent fratricide.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Target Acquisition",
+      sections: [
+        {
+          question: "How are threats prioritized?",
+          answer: [
+            "Most Dangerous - A threat that is capable of causing harm and is preparing to do so; must be engaged first.",
+            "Dangerous - A threat that is capable of causing harm but is not preparing to do so",
+            "Least Dangerous - A threat that is not capable of causing harm, but has the ability to coordinate with more dangerous threats; killed last.",
+          ],
+        },
+        {
+          question: "What is the order of engagement?",
+          answer: [
+            "Near before far.",
+            "Front before flank.",
+            "Stationary before moving.",
+            <span>
+              <strong>
+                This is standard and optimizes overmatch potential!
               </strong>
             </span>,
           ],
