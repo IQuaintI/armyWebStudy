@@ -17,6 +17,14 @@ function Stability() {
           ],
         },
         {
+          question: "What is stabilization failure?",
+          answer: [
+            "A failure in stabilization is the inability to maintain a stable firing platform.",
+            "It often occurs due to inability to support the weapon, inability to barrel movement, or inability to maintain sight picture.",
+            "This failure can be corrected by adjusting firing positions and correcting errors in firing skills.",
+          ],
+        },
+        {
           question:
             "What is the four major functions that create a stable firing platform?",
           answer: [
@@ -78,9 +86,9 @@ function Stability() {
             "Firing hand",
             "Non-firing hand",
             "Legs",
-            "Butt Stock - The proper placement of the butt stock is needed for recoil management.",
-            "Stock Weld - The proper placement of the stock weld is needed for sight alignment.",
-            "Center of Gravity - The proper placement of the center of gravity is needed to provides the ability to lean into the weapon.",
+            "Butt Stock",
+            "Stock Weld",
+            "Center of Gravity",
           ],
         },
         {
@@ -123,30 +131,39 @@ function Stability() {
           question: "Elaborate on the legs.",
           answer: [
             "The proper placement of the legs provides a stable base for the entire body.",
+            "When standing, the feet should be shoulder width apart, slightly staggered, and the knees should be slightly bent.",
+            "When kneeling, the non-firing knee should be placed on the ground and the firing knee should be bent at a 90 degree angle.",
+            "When prone, the legs should be shoulder width apart and the knees should be slightly bent.",
           ],
         },
         {
           question: "Elaborate on the butt stock.",
           answer: [
-            "The butt stock should be placed in the pocket of the shoulder.",
-            "The butt stock should be placed in the same spot every time.",
-            "The butt stock should be placed in the same spot every time.",
+            "The proper placement of the butt stock is needed for a proper stock weld.",
+            "The butt stock should be placed in a location that allows for sighting at upright head position.",
           ],
         },
         {
           question: "Elaborate on the stock weld.",
           answer: [
-            "The stock weld is the placement of the cheek on the stock.",
-            "The stock weld should be consistent.",
-            "The stock weld should be placed on the same spot every time.",
+            "A stock weld is the placement of the cheek on the stock of the weapon",
+            "The proper placement of the stock weld is needed for sight alignment.",
+            "The full weight of the head is rested on the stock weld.",
+            <span>
+              <strong>
+                This is the most important aspect of sight alignment!
+              </strong>
+            </span>,
           ],
         },
         {
           question: "Elaborate on the center of gravity.",
           answer: [
-            "The center of gravity is the balance point of the weapon.",
-            "The center of gravity should be placed in the shoulder pocket.",
-            "The center of gravity should be placed in the same spot every time.",
+            "The proper center of gravity is needed for balancing the weapon system.",
+            "It allows for leaning into the weapon system and provides a more stable platform.",
+            <span>
+              <strong>This does not apply when prone!</strong>
+            </span>,
           ],
         },
       ],
@@ -173,9 +190,9 @@ function Stability() {
         >
           <Grid item className="item-spacing">
             <BlockQuote
-              header="Reticle"
+              header="Stability"
               content={[
-                "The reticle is the aiming point of the weapon system and is often measured in MILS or MOA.",
+                "Stability is the ability to create a stable firing platform.",
               ]}
               source={["- TC 3-22.9"]}
             />

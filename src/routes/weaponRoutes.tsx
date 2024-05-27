@@ -9,6 +9,8 @@ import Lasers from "../armyData/weaponsData/lasers";
 import Mountables from "../armyData/weaponsData/mountables";
 import ShotProcess from "../armyData/weaponsData/shotProcess";
 import Stability from "../armyData/weaponsData/stability";
+import CarryPositions from "../armyData/weaponsData/carryPositions";
+import FiringPositions from "../armyData/weaponsData/firingPositions";
 
 export const WeaponRoutes = (
   <>
@@ -25,6 +27,8 @@ export const WeaponRoutes = (
     <Route path="/weapon/mountables" element={<Mountables />} />
     <Route path="/weapon/shot-process" element={<ShotProcess />} />
     <Route path="/weapon/stability" element={<Stability />} />
+    <Route path="/weapon/carry-positions" element={<CarryPositions />} />
+    <Route path="/weapon/firing-positions" element={<FiringPositions />} />
 
     {/* more nested routes */}
   </>
