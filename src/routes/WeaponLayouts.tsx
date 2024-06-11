@@ -24,6 +24,19 @@ const WeaponLayout = () => {
             { title: "Stability", href: "/weapon/stability" },
             { title: "Carry Positions", href: "/weapon/carry-positions" },
             { title: "Firing Positions", href: "/weapon/firing-positions" },
+            {
+              title: "Common Engagements",
+              href: "/weapon/common-engagements",
+            },
+            {
+              title: "Complex Engagements",
+              href: "/weapon/complex-engagements",
+            },
+            {
+              title: "Environmental Conditions",
+              href: "/weapon/environmental-conditions",
+            },
+            { title: "Wobble", href: "/weapon/wobble" },
 
             // Add more sidebar items as needed
           ]}

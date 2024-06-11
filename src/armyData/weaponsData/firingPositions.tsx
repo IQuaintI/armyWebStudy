@@ -33,48 +33,110 @@ function FiringPositions() {
         {
           question: "Elaborate on standing supported.",
           answer: [
-            "",
-            <span>
-              <strong>The handguard touches the support NOT the barrel!</strong>
-            </span>,
-          ],
-        },
-        {
-          question: "What is the low ready position?",
-          answer: [
-            "In the low ready position, the weapon is unslung, both hands are in their respective positions, the butt stock is placed in the shoulder pocket, and the weapon is kept at a 45 degree angle.",
-            'The thumb is placed on the selector switch ready to switch to "FIRE" if needed.',
-            "Command: Go Low Ready!",
+            "Standing supported allows for the Soldier to use their rear leg to push the weapon into the support to help stabilize it.",
+            "The non-firing hand will change positions depending on the support used, but will typically maintain a C-grip on the handguard while gently pushing forward.",
             <span>
               <strong>
-                This allows for the greatest field of view, while maintaining
-                weapon readiness!
+                The handguard touches the support NOT the barrel otherwise shot
+                placement will be erratic!
               </strong>
             </span>,
           ],
         },
         {
-          question: "What is the high ready position?",
+          question: "Elaborate on kneeling unsupported.",
           answer: [
-            "In the high ready position, the weapon is unslung, both hands are in their respective positions, the butt stock is placed in the shoulder pocket, and the weapon is kept at a 45 degree angle facing upwards.",
-            'The thumb is placed on the selector switch ready to switch to "FIRE" if needed.',
-            "This position is used when the threat is overhead or when an elevated barrel is needed for safety.",
-            "Command: Go High Ready!",
+            "The kneeling unsupported is often used when the Soldier requires a more stable platform but still needs to be able to move quickly.",
+            "The non-firing elbow will NOT sit upon the knee but will be placed in front or behind the kneecap, since it rolls with the body when the Soldier moves.",
+            "The The non-firing leg will be bent 90 degrees with the firing leg perpendicular to the non-firing leg.",
+            'A more aggressive posture can be used if the the non-firing leg is not placed perpendicular and instead kept at a "lunge" position allowing for easy standing.',
             <span>
               <strong>
-                This position is less effective than the low ready position as
-                it obstructs vision and takes longer to bring to bear!
+                In the less aggressive position, the Soldier can rest their
+                weight on their heel should they be so flexible!
               </strong>
             </span>,
           ],
         },
         {
-          question: "What is the ready position?",
+          question: "Elaborate on kneeling supported.",
           answer: [
-            "In the ready position, the weapon is unslung, both hands are in their respective positions, the butt stock is placed in the shoulder pocket, the weapon is pointing towards the threat, and the shooter is aiming down the sights.",
-            'The weapon is the at the most ready and the selector switch is on "FIRE" with the finger off the trigger unless ready to fire.',
-            "This position has the least amount of lateral awareness since the shooter is focused on the threat.",
-            "Command: Make Ready!",
+            "Kneeling supported is used when the Soldier has access to a more stable platform but it is not quite low enough to go prone or use standing supported.",
+            "The non-firing elbow can be pressed up against the stabilizing platform depending on the height of the support.",
+            "The non-firing hand will be placed on the under-side of the handguard and will be pushed against the support to help stabilize the weapon.",
+            <span>
+              <strong>Do NOT let the barrel touch the support!</strong>
+            </span>,
+          ],
+        },
+        {
+          question: "Elaborate on prone unsupported.",
+          answer: [
+            "The prone unsupported position is the most stable position that a Soldier can assume without the use of a bipod or other support and is often used to minimize exposure to enemy fire.",
+            "Both elbows are used to minimize the movement of the weapon and the Soldier's body.",
+            "The legs can be spread out with feet running along side the ground or the firing leg can be bent at the knee to help reduce stomach pressure.",
+            <span>
+              <strong>
+                The magazine can be rested on the ground to be allow for some
+                support without the risk of malfunction!
+              </strong>
+            </span>,
+          ],
+        },
+        {
+          question: "Elaborate on prone supported.",
+          answer: [
+            "The prone supported position is the most stable position that a Soldier can assume and takes the most amount of time to assume.",
+            "The non-firing hand is placed under the handguard and is used pull the weapon into the shoulder.",
+            "The legs can be spread out with feet running along side the ground or the firing leg can be bent at the knee to help reduce stomach pressure.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Non-Standard Firing Positions",
+      sections: [
+        {
+          question: "Elaborate on sitting crossed-ankle / crossed-leg.",
+          answer: [
+            "The sitting crossed-ankle position is used to provide a stable platform for the Soldier to engage targets from since most of the body weight is behind the weapon.",
+            "Th non-firing ankle crosses over the firing ankle.",
+            "The sitting crossed-leg position provides similar advantages as the crossed-ankle position, but Soldiers can experience a strong pulse crossed-leg due to lack of blood flow to the legs which can increase wobble.",
+            "The non-firing leg is crossed over the firing leg.",
+          ],
+        },
+        {
+          question: "Elaborate on sitting open-leg.",
+          answer: [
+            "The open-leg position is the sitting position most used when wearing body armor since the armor restricts the Soldier's ability to cross their legs due to the added weight and bulk.",
+            "Due to the weight not being behind the weapon as much as the crossed positions, the Soldier may experience more wobble.",
+            "Legs are spread out with knees bent and the firing elbow sitting against the firing knee.",
+          ],
+        },
+        {
+          question: "Elaborate on prone roll-over.",
+          answer: [
+            "The prone roll-over position is used when the Soldier needs to engage targets under cover that are too low to engage from a standard prone position.",
+            "This position has the firing arm against the ground and the non-firing arm supporting the weapon.",
+            <span>
+              <strong>
+                This position is inaccurate and gets worse the further the
+                target is!
+              </strong>
+            </span>,
+          ],
+        },
+        {
+          question: "Elaborate on prone reverse roll-over.",
+          answer: [
+            "The prone reverse roll-over position is used when a Soldier needs to engage targets under cover that are too low to engage from a standard prone position.",
+            "This position has the Soldier on their back with the firing arm across the body and the non-firing arm supporting the weapon.",
+            <span>
+              <strong>
+                This position is inaccurate and gets worse the further the
+                target is!
+              </strong>
+            </span>,
           ],
         },
       ],

@@ -11,6 +11,10 @@ import ShotProcess from "../armyData/weaponsData/shotProcess";
 import Stability from "../armyData/weaponsData/stability";
 import CarryPositions from "../armyData/weaponsData/carryPositions";
 import FiringPositions from "../armyData/weaponsData/firingPositions";
+import CommonEngagements from "../armyData/weaponsData/commonEngagements";
+import ComplexEngagements from "../armyData/weaponsData/complexEngagements";
+import EnvironmentalConditions from "../armyData/weaponsData/environmentalConditions";
+import Wobble from "../armyData/weaponsData/wobble";
 
 export const WeaponRoutes = (
   <>
@@ -29,6 +33,10 @@ export const WeaponRoutes = (
     <Route path="/weapon/stability" element={<Stability />} />
     <Route path="/weapon/carry-positions" element={<CarryPositions />} />
     <Route path="/weapon/firing-positions" element={<FiringPositions />} />
+    <Route path="/weapon/common-engagements" element={<CommonEngagements />} />
+    <Route path="/weapon/complex-engagements" element={<ComplexEngagements />} />
+    <Route path="/weapon/environmental-conditions" element={<EnvironmentalConditions />} />
+    <Route path="/weapon/wobble" element={<Wobble />} />
 
     {/* more nested routes */}
   </>
