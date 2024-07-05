@@ -37,6 +37,11 @@ const WeaponLayout = () => {
               href: "/weapon/environmental-conditions",
             },
             { title: "Wobble", href: "/weapon/wobble" },
+            { title: "Trigger Control", href: "/weapon/trigger-control" },
+            {
+              title: "Workspace Management",
+              href: "/weapon/workspace-management",
+            },
 
             // Add more sidebar items as needed
           ]}
