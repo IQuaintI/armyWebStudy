@@ -15,6 +15,8 @@ import CommonEngagements from "../armyData/weaponsData/commonEngagements";
 import ComplexEngagements from "../armyData/weaponsData/complexEngagements";
 import EnvironmentalConditions from "../armyData/weaponsData/environmentalConditions";
 import Wobble from "../armyData/weaponsData/wobble";
+import TriggerControl from "../armyData/weaponsData/triggerControl";
+import BreathControl from "../armyData/weaponsData/workspaceManagement";
 
 export const WeaponRoutes = (
   <>
@@ -34,9 +36,17 @@ export const WeaponRoutes = (
     <Route path="/weapon/carry-positions" element={<CarryPositions />} />
     <Route path="/weapon/firing-positions" element={<FiringPositions />} />
     <Route path="/weapon/common-engagements" element={<CommonEngagements />} />
-    <Route path="/weapon/complex-engagements" element={<ComplexEngagements />} />
-    <Route path="/weapon/environmental-conditions" element={<EnvironmentalConditions />} />
+    <Route
+      path="/weapon/complex-engagements"
+      element={<ComplexEngagements />}
+    />
+    <Route
+      path="/weapon/environmental-conditions"
+      element={<EnvironmentalConditions />}
+    />
     <Route path="/weapon/wobble" element={<Wobble />} />
+    <Route path="/weapon/trigger-control" element={<TriggerControl />} />
+    <Route path="/weapon/workspace-management" element={<BreathControl />} />
 
     {/* more nested routes */}
   </>
